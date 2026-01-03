@@ -1,0 +1,40 @@
+echo "# My-First-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/1samiulislam/My-First-Project.git
+git push -u origin main
+
+_________________________________________________________________________________________
+
+(My custom )
+
+echo "# My-First-Project" >> README.md ==>> [ eta avoid korbo ] 
+
+# 1. One Time Each project to start git 
+git init
+
+# 2. Every time to add 
+git add .
+
+# 3. One Time Each Device to start git
+git commit -m ""
+git commit -m "first commit"
+
+fatal error : 
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+  Then Check : git config --global --list
+
+# . 
+git branch -M main
+
+# 5. Where will the code go? 
+git remote add origin https://github.com/1samiulislam/My-First-Project.git
+git push -u origin main
+
+
