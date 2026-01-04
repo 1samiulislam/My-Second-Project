@@ -15,26 +15,36 @@ echo "# My-First-Project" >> README.md ==>> [ eta avoid korbo ]
 # 1. One Time Each project to start git 
 git init
 
-# 2. Every time to add 
+# 2. Every time to add project 
 git add .
 
-# 3. One Time Each Device to start git
-git commit -m ""
-git commit -m "first commit"
+# 3. Every time to add commit (update)
+git commit -m "___"
+git commit -m "first commit" ,
+--> ekhane commit "-meaning full jinish likhbo--"
+                  "--ki update korci ta likhbo--"
 
 fatal error : 
+# One Time Each Device to start git
+( ei error er karon github ea kon user and kon gmail thike code update )
+
 *** Please tell me who you are.
 Run
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
 
-  Then Check : git config --global --list
+Then Go Terminal :
+git config --global user.email "samiulislam.contactme@gmail.com"
+git config --global user.name "1samiulislam"
+Then check: git config --global --list..
 
-# . 
+# 4. 
 git branch -M main
 
 # 5. Where will the code go? 
-git remote add origin https://github.com/1samiulislam/My-First-Project.git
+git remote add origin https://github.com/1samiulislam/My-Second-Project.git
+
+# 6. Code Push 
 git push -u origin main
 
 
